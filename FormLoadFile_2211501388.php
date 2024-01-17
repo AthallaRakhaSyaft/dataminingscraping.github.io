@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<center><h1>2211501388 ATHALLA RAKHA SYAFA'AT</h1></center>
+
+<html>
+<body>
+    <h1>Tahap Pengumpulan Data</h1>
+    <link rel="stylesheet" type="text/css" href="style_2211501388.css">
+        <form action="LoadFile_2211501388.php" method="get">
+        <h2>Input Link</h2>
+        <input type="text" size="100" name="link"/>
+        <br><br>
+        <input type="submit" value="Simpan Data">
+        <input type="reset" value="Reset">
+    </form>
+    <form action="preprocessing_2211501388.php" method="get">
+            <br><br>
+            <h1>Tahap PreProcessing Data</h1>
+            <input type="submit" value="Proses Pembersihan Data">
+    </form>
+    <form action="labelisasi_2211501388.php" method="get">
+            <br><br>
+            <h1>Tahap Labelisasi</h1>
+            <input type="submit" value="Proses Labelisasi">
+    </form>
+    <form action="Vocabulary_2211501388.php" method="get">
+            <br><br>
+            <h1>Tahap Klasifikasi</h1>
+            <!--<input type="submit" value="Proses Klasifikasi Data Training">-->
+    </form>
+
+    <h1>Learning (Pembelajaran)</h1>
+
+    <form action="Vocabulary_2211501388.php" method="get">
+            <br><br>
+            <h1>Bentuk Vocabulary</h1>
+            <input type="submit" value="Proses">
+    </form>
+
+    <form action="athalla_2211501388.php" method="get">
+            <br><br>
+            <h1>Hitung Probabilitas Kategori</h1>
+            <input type="submit" value="Proses">
+    </form>
+
+    <form action="syafaat_2211501388.php" method="get">
+            <br><br>
+            <h1>Hitung Probabilitas Kata</h1>
+            <input type="submit" value="Proses">
+    </form>
+
+     <form action="classify_2211501388.php" method="get">
+            <br><br>
+            <h1>Classify (Pengklasifikasian)</h1>
+            <input type="submit" value="Proses">
+    </form>
+
+     <form action="aktual_2211501388.php" method="get">
+            <br><br>
+            <h1>Pengujian Klasifikasi</h1>
+            <input type="submit" value="Proses Menentukan Kategori Aktual">
+    </form>
+
+    <form action="UAS_2211501388.php" method="get">
+            <br><br>
+            <input type="submit" value="Proses Pengukuran Kinerja Model Klasifikasi">
+    </form>
+</body>
+</html>
